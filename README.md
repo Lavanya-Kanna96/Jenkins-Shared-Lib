@@ -9,10 +9,16 @@ For simple, directly callable pipeline functions.
 ## src Folder: 
 For structured and complex classes and packages.
 
+## Repository Structure: Shared libraries follow a specific directory structure:
+
 (root)
 ├── vars/
-│   └── myPipeline.groovy
+│ └── <script>.groovy
+└── myPipeline.groovy
 └── src/
-    └── com/example/HelperClass.groovy
+└── <package>/<class>.groovy
+
+## vars/: Contains global Groovy scripts accessible in Jenkins pipelines. Each script here is accessible as a function or variable in your pipeline.
+## src/: Contains classes and packages, allowing you to structure your library more formally.
 
 
