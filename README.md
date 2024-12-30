@@ -7,5 +7,12 @@ The shared library is stored in a Git repository and follows a defined structure
 ## vars Folder:
 For simple, directly callable pipeline functions.
 ## src Folder: 
-For structured and complex code.
+For structured and complex classes and packages.
+
+(root)
+├── vars/
+│   └── myPipeline.groovy
+└── src/
+    └── com/example/HelperClass.groovy
+
 
